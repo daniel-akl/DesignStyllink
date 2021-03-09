@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+  .vertical-projects .vertical-project {
+    width: 100% !important;
+    padding-bottom: 33.25%;
+    height: 0;
+  }
+  .collective-title:after {
+    padding-top: 10px;
+    margin-bottom: 15px;
+  }
+  footer .widget {
+    margin-bottom: 30px;
+  }
+
+  .stoned-container {
+    padding: 0 15px;
+  }
+  footer {
+    padding: 20px 0;
+  }
+}

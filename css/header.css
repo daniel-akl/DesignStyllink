@@ -1,0 +1,135 @@
+.responsive-header {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  header > div.stoned-container {
+    display: none;
+  }
+
+  header > div.responsive-header {
+    display: block;
+  }
+
+  header.header-gap > div.responsive-header {
+    margin-bottom: 30px;
+  }
+
+  header > div.responsive-header .responsive-logo {
+    height: 100px;
+    line-height: 100px;
+  }
+
+  header > div.responsive-header .responsive-logo img {
+    max-width: 400px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+  }
+
+  header > div.responsive-header .responsive-menu {
+    background-color: #151515;
+    color: #ffffff;
+    padding: 10px;
+    padding-bottom: 0;
+  }
+
+  header > div.responsive-header .responsive-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 3;
+    background: #fff;
+  }
+
+  header > div.responsive-header .responsive-menu ul.sub-menu {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header
+    > div.responsive-header
+    .responsive-menu
+    li.current-menu-ancestor
+    > ul.sub-menu,
+  header
+    > div.responsive-header
+    .responsive-menu
+    li.current-menu-parent
+    > ul.sub-menu {
+    display: block;
+  }
+
+  header > div.responsive-header .responsive-menu ul.menu {
+    display: none;
+    padding: 15px;
+    border-bottom: 10px solid #151515;
+  }
+
+  header > div.responsive-header .responsive-menu ul li {
+    padding: 0;
+    margin: 0;
+  }
+
+  header > div.responsive-header .responsive-menu > div > ul > li > a {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  header > div.responsive-header .responsive-menu > ul > div > li > a {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  header > div.responsive-header .responsive-menu ul li a {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+  }
+
+  header > div.responsive-header .responsive-menu ul ul ul li a {
+    font-size: 12px;
+  }
+
+  header > div.responsive-header .responsive-menu ul li.current-menu-item > a {
+    color: #999999;
+  }
+
+  header > div.responsive-header .responsive-menu > a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    float: right;
+  }
+
+  header > div.responsive-header .responsive-menu.fixed-rm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  header > div.responsive-header .responsive-social-shares {
+    text-align: left;
+    padding-bottom: 10px;
+    height: 55px;
+  }
+
+  header > div.responsive-header .responsive-social-shares a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  header {
+    border-bottom: 0 !important;
+  }
+}
